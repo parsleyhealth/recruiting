@@ -33,7 +33,7 @@ Generally, I’ll be evaluating your work along the following lines:
 
 ### Delivery
 
-**Email** me the following:
+[Email](michael@parsleyhealth.com) me the following:
 
 * Source code should be placed on GitHub for review
 * The url to the web accessible application
