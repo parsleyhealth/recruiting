@@ -44,4 +44,5 @@ Generally, I’ll be evaluating your work along the following lines:
 
 * Focus on what I’m evaluating you on. While showing me what you can do with a web service framework might be impressive, the bulk of this task is about front-end user experience and process, so get that done first.
 * Be efficient! Please don’t reinvent the wheel, use generators and other tools when they speed up your process and get you to your end goal faster.
+* I think React, Redux and maybe redux-form might be useful here, but any comprehensive, robust solution is good. Please no jQuery!
 * GitHub Pages is free and easy.
