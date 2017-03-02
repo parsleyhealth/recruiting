@@ -10,9 +10,10 @@ In this task you'll be creating and deploying a full, simple, client-side applic
 I would like you to create a **multi-step** patient ingest form that gathers the following data. Please use your best judgement on what sorts of questions to ask.  
 
 * Demographic data: name, email, address, birthdate, etc.
-* Medical history: check boxes, freeform fields.
+* Medical history information: family history, medications, diseases, allergies.
 * Acceptance of a contract (lorem ipsum text is fine).
-* Several “screens” should be used to organize the information, with no full page reload between them.
+* Several steps should be used to organize the information, with no full page reload between them.
+* The current step and its place in the series of steps, should be indicated.
 
 Then, finishing up:  
 
