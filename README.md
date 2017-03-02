@@ -26,6 +26,7 @@ Generally, I’ll be evaluating your work along the following lines:
 
 * Cleanliness and clarity of code!
 * Project organization
+* Management of data internally, and state handling
 * Consideration of pertinent questions and collected data
 * General polish of execution
 * Consideration of UX — not that you have to go deep on design, any style framework is fine
