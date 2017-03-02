@@ -33,8 +33,8 @@ Generally, I’ll be evaluating your work along the following lines:
 
 ### Delivery
 
-* Source code should be placed on GitHub for review
-* The application itself should be web accessible — send me the URL
+* Source code should be placed on GitHub for review — email me the URL
+* The application itself should be web accessible — email me the URL
 
 ### Hints
 
