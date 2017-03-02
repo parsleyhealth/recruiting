@@ -7,18 +7,18 @@ In this task you'll be creating and deploying a full, simple, client-side applic
 
 ### Requirements
 
-I would like you to create a patient ingest form flow that gathers the following data. Please use your best judgement on what sorts of questions to ask.  
+I would like you to create a **multi-step** patient ingest form that gathers the following data. Please use your best judgement on what sorts of questions to ask.  
 
 * Demographic data: name, email, address, birthdate, etc.
-* Medical history: check boxes, freeform fields
-* Acceptance of a contract (lorem ipsum text is fine)
-* Several “screens” should be used to organize the information, with no full page reload between them
+* Medical history: check boxes, freeform fields.
+* Acceptance of a contract (lorem ipsum text is fine).
+* Several “screens” should be used to organize the information, with no full page reload between them.
 
 Then, finishing up:  
 
-* Present a wrap-up or summary screen prior to submission where you print the collected data, and which allows the patient to go back and edit a detail if it was entered incorrectly
-* Submit the collected data to a mock REST API as JSON data (please just send a request for me to inspect, even if it fails, or console.log the payload in the client, but don’t set up a DB, persistence is not needed)
-* Reset the form
+* Present a wrap-up or summary screen prior to submission where you print the collected data, and which allows the patient to go back and edit a detail if it was entered incorrectly.
+* Submit the collected data to a mock REST API as JSON data (please just send a request for me to inspect, even if it fails, or console.log the payload in the client, but don’t set up a DB, persistence is not needed).
+* Reset the form.
 
 ### Evaluation
 
