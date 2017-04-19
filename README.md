@@ -7,7 +7,7 @@ In this task you'll be creating and deploying a full, simple, client-side, singl
 
 ### Time limits
 
-Please spend **no more than 3-hours** on this test. 
+Please spend **no more than 3-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished.
 
 Please turn in your results within **72-hours** of the prompt being given*. 
 
@@ -47,7 +47,7 @@ Within your brief **3 hour time limit** I hope you'll prioritize the following, 
 
 * Please place your finished source code on GitHub
 * Please host your finished application somewhere (GitHub Pages, Heroku, S3 bucket)
-* Email the repository URL and application URL
+* Email me the repository URL and application URL
 
 > If for some reason you would rather not have your code or application out in the open, please send me a zip file of the source code and instructions on to launch and view the finished application.
 
