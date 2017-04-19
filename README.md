@@ -27,7 +27,7 @@ Then, finishing up:
 
 * Present a **wrap-up or summary screen** prior to submission where you print the collected data, and which allows the patient to go back and edit if any information was entered incorrectly.
 * Simulate submitting the data to a REST API endpoint by **printing the payload to the console**.
-* **Reset the form** and return to me to the initial state.
+* **Reset the form** and return the user to the initial state.
 
 ### Evaluation & priorities
 
