@@ -9,9 +9,9 @@ In this task you'll be creating and deploying a full, simple, client-side, singl
 
 Please spend **no more than 3-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished.
 
-Please turn in your results within **72-hours** of the prompt being given*. 
+Please turn in your results within **72-hours** of the prompt being given. If that falls during the weekend, then please turn it in by Monday.
 
-> *Extensions are available, just ask
+> Extensions are available, just ask!
 
 ### Requirements
 
