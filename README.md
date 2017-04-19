@@ -54,7 +54,7 @@ Within your brief **3 hour time limit** I hope you'll prioritize the following, 
 
 When you've finished the test let me know by email: [michael@parsleyhealth.com]
 
-We can then schedule a short wrap up call to go over your results, and thinking you applied to it.
+We can then schedule a short wrap up call to go over your results and the thinking you applied to this project.
 
 ### Hints
 
