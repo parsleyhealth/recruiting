@@ -3,7 +3,7 @@ Patient Ingest Form Application
 
 ### Overview
 
-In this task you'll be creating and deploying a full, simple, client-side, single-page application. The goal is to see how well you realize the sort of project you might be expected to work on here at Parsley Health. If you have any questions don't hesitate to email me at [michael@parsleyhealth.com](michael@parsleyhealth.com).
+In this task you'll be creating and deploying a full, simple, client-side, single-page application. The goal is to see how well you realize the sort of project you might be expected to work on here at Parsley Health. If you have any questions don't hesitate to email me at michael@parsleyhealth.com.
 
 ### Time limits
 
@@ -52,7 +52,7 @@ Within your brief **3 hour time limit** I hope you'll prioritize the following, 
 
 ### Wrap up
 
-When you've finished the test let me know by email: [michael@parsleyhealth.com]
+When you've finished the test let me know by email: michael@parsleyhealth.com
 
 We can then schedule a short wrap up call to go over your results and the thinking you applied to this project.
 
