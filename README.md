@@ -45,8 +45,9 @@ Within your brief **3 hour time limit** I hope you'll prioritize the following, 
 
 ### Delivery of project
 
-* Please place your finished source code on GitHub and [email me](michael@parsleyhealth.com) a link to the repository.
-* Please host your finished application somewhere and email me the url. (GitHub Pages, Heroku, S3 bucket)
+* Please place your finished source code on GitHub
+* Please host your finished application somewhere (GitHub Pages, Heroku, S3 bucket)
+* Email the repository URL and application URL
 
 > If for some reason you would rather not have your code or application out in the open, please send me a zip file of the source code and instructions on to launch and view the finished application.
 
