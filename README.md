@@ -3,7 +3,7 @@ Patient Ingest Form Application
 
 ### Overview
 
-In this task you'll be creating and deploying a full, simple, client-side, single-page application. The goal is to see how well you realize the sort of project you might be expected to work on here at Parsley Health. If you have any questions don't hesitate to email me at michael@parsleyhealth.com.
+In this task you'll be creating and deploying a simple, client-side, single-page application. If you have any questions email me at michael@parsleyhealth.com.
 
 ### Requirements
 
