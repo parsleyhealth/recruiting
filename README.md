@@ -5,6 +5,29 @@ Patient Ingest Form Application
 
 In this task you'll be creating and deploying a full, simple, client-side, single-page application. The goal is to see how well you realize the sort of project you might be expected to work on here at Parsley Health. If you have any questions don't hesitate to email me at michael@parsleyhealth.com.
 
+### Requirements
+
+I would like you to create a **multi-step** or **multi-screen** patient ingest form that gathers standard medical data. Here is a list of data points, disease and questions you might want to use: https://github.com/parsleyhealth/dev-test/blob/master/fixtures.md
+
+Please use your best judgement on how to organize them your form. 
+
+Here are some guidelines / ideas:
+
+* **Demographic data**: name, email, address, birthdate, etc
+* **Medical history information**: family history, medications, diseases, allergies
+* **Acceptance of a contract** (lorem ipsum text is fine)
+
+Pleaes note:
+
+* Several steps should be used to organize the information, with no full page reload between them
+* It would be nice to see the stage you're at in the form
+
+Finishing up:
+
+* Present a **wrap-up or summary screen** prior to submission where you show the collected data, and which allows the patient to go back and edit if any information was entered incorrectly.
+* Simulate submitting the data to a REST API endpoint by **printing the payload to the console**.
+* **Reset the form** and return the user to the initial state.
+
 ### Time limits
 
 Please spend **no more than 3-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished.
@@ -13,35 +36,26 @@ Please turn in your results within **72-hours** of the prompt being given. If th
 
 > Extensions are available, just ask!
 
-### Requirements
-
-I would like you to create a **multi-step** or **multi-screen** patient ingest form that gathers the following data. Please use your best judgement on what sorts of questions to ask.  
-
-* **Demographic data**: name, email, address, birthdate, etc.
-* **Medical history information**: family history, medications, diseases, allergies.
-* **Acceptance of a contract** (lorem ipsum text is fine).
-* Several steps should be used to organize the information, with no full page reload between them.
-* The current step and its place in the series of steps, should be indicated.
-
-Then, finishing up:  
-
-* Present a **wrap-up or summary screen** prior to submission where you print the collected data, and which allows the patient to go back and edit if any information was entered incorrectly.
-* Simulate submitting the data to a REST API endpoint by **printing the payload to the console**.
-* **Reset the form** and return the user to the initial state.
-
 ### Evaluation & priorities
 
-Within your brief **3 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process: get it working on sound principles first, then start adding layers of refinement as time allows.
+Within your brief **3 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process — get it working on sound principles first, then refine and polish as time allows.
 
-1. Planning: tools to use, implementation strategy, very basic UX concerns like what to ask for where
-2. Project organization
-3. Cleanliness and clarity of code!
-4. Making it work! (your results might be crude, but don't worry)
-5. Management of data internally, for example, state handling
-6. Consideration of pertinent questions and collected data
-7. General polish of execution
-8. Consideration of UX — not that you have to go deep on design, any style framework is fine
+1. Make it work!
+2. Clean and clear code (hopefully you didn't sacrifice this to make it work)
+3. Project organization
+4. Planning: tools used, implementation strategy, basic UX concerns like what to ask for where
+5. Make it look good - just use Bootstrap, a Material theme, or whatever you're comfortable with
+6. Management of data, state, and events internally
+7. Code quality details
+  - Type, variable, property checking
+  - Failing fast, for better debugging
+8. Extra polish, concern and care will be noticed
 
+Less important details:
+
+* How you host your project. This is a front-end focused position. Please consider a simple cheap (or free) static file host like **GitHub Pages**, or **S3**. 
+* The language or framework you use. Please use whatever you are most comfortable with to finish this. (Though I think it might be hard to accomplish the code style and organization objectives above with vanilla JS or jQuery)
+* Tests are great, but I doubt you'll have time.
 
 ### Delivery of project
 
@@ -55,11 +69,9 @@ Within your brief **3 hour time limit** I hope you'll prioritize the following, 
 
 When you've finished the test let me know by email: michael@parsleyhealth.com
 
-We can then schedule a short wrap up call to go over your results and the thinking you applied to this project.
+We will then schedule a short wrap up call to go over your results and the thinking you applied to this project.
 
 ### Hints
 
-* Focus on what I’m evaluating you on. While showing me what you can do with a web service framework might be impressive, the bulk of this task is about front-end user experience and process, so stick to that.
-* Be efficient! Please don’t reinvent the wheel, use boilerplates, generators and other tools when they speed up your process and get you to your end goal faster.
-* I think React, Redux and maybe redux-form might be useful here, but any comprehensive, robust solution is good. 
-* Please no jQuery (without a great reason)
+* Be efficient! Please don’t reinvent the wheel, use [boilerplates](https://redux-minimal.js.org), [generators](https://github.com/angular/angular-seed) and other [tools](http://redux-form.com/6.6.3/) when they speed up your process and get you to your end goal faster.
+
