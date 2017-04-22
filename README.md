@@ -11,24 +11,18 @@ In this task you'll be creating and deploying a simple, client-side, single-page
 
 I would like you to create a **multi-step** or **multi-screen** patient ingest form that gathers standard medical data. Here is a list of data points, disease and questions you might want to use: https://github.com/parsleyhealth/dev-test/blob/master/fixtures.md
 
-Please use your best judgement on how to organize them your form. 
+Here is a suggested organization of the form, but use your best judgement and creativity:
 
-Here are some guidelines / ideas:
-
-* **Demographic data**: name, email, address, birthdate, etc
-* **Medical history information**: family history, medications, diseases, allergies
-* **Acceptance of a contract** (lorem ipsum text is fine)
+1. **Demographic data**: name, email, address, birthdate, etc
+2. **Medical history information**: family history, medications, diseases, allergies
+3. **Acceptance of a contract** (lorem ipsum text is fine)
+4. **Summary**: show the patient a wrap-up screen with the info they collected, and give them a way to go back and edit if there are any mistake
+5. **Submit**: On submit, please print the payload you collected to the console. This is your fake API submission.
 
 Please note:
 
-* Several steps should be used to organize the information, with no full page reload between them
+* This is a **single-page application**. There shouldn't be page reloads between screens.
 * It would be nice to see your stage as your work through the form
-
-Finishing up:
-
-* Present a **wrap-up or summary screen** prior to submission where you show the collected data, and which allows the patient to go back and edit if any information was entered incorrectly.
-* Simulate submitting the data to a REST API endpoint by **printing the payload to the console**.
-* **Reset the form** and return the user to the initial state.
 
 ### Time limits
 
