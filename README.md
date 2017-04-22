@@ -17,7 +17,7 @@ Here are some guidelines / ideas:
 * **Medical history information**: family history, medications, diseases, allergies
 * **Acceptance of a contract** (lorem ipsum text is fine)
 
-Pleaes note:
+Please note:
 
 * Several steps should be used to organize the information, with no full page reload between them
 * It would be nice to see the stage you're at in the form
