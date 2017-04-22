@@ -20,7 +20,7 @@ Here are some guidelines / ideas:
 Please note:
 
 * Several steps should be used to organize the information, with no full page reload between them
-* It would be nice to see the stage you're at in the form
+* It would be nice to see your stage as your work through the form
 
 Finishing up:
 
