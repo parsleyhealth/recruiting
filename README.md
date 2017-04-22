@@ -16,7 +16,7 @@ Here is a suggested organization of the form, but use your best judgement and cr
 1. **Demographic data**: name, email, address, birthdate, etc
 2. **Medical history information**: family history, medications, diseases, allergies
 3. **Acceptance of a contract** (lorem ipsum text is fine)
-4. **Summary**: show the patient a wrap-up screen with the info they collected, and give them a way to go back and edit if there are any mistake
+4. **Summary**: show the patient a wrap-up screen with the info they added, and give them a way to go back and edit if there are any mistake
 5. **Submit**: On submit, please print the payload you collected to the console. This is your fake API submission.
 
 Please note:
