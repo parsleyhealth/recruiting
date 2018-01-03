@@ -9,11 +9,11 @@ In this task you'll be creating a simple web service to present a database-drive
 
 ### Components
 
-1.  **Containers**: Please use a tool like `Docker` (with `Docker Compose`), `Kubernetes` or `Mesos` to structure your database and application containers so that I can easily launch this service.
+1.  **Containers**: Please use a tool like `Docker` (with `Docker Compose`), `Kubernetes` or `Apache Mesos` to structure your database and application containers so that I can easily launch this service. 
 
 2.  **Database**: Use whatever database you find easiest, and most convenient. `PostgreSQL`, `MongoDB` and `MariaDB` are all great possibilities.
 
-3.  **Application**: Write your API handlers using whatever web framework and language you are most comfortable with. `Express / Node.js`, `Play / Java`, `Flask / Python` are some common and popular web frameworks.
+3.  **Application**: Write your API handlers using whatever web framework and language you are most comfortable with. `Express / Node.js`, `Play / Java`, `Flask / Python` are some common and popular web frameworks. While REST APIs are the most common, feel free to use GraphQL, Falcor, or another interface if you prefer it.
 
 ### Requirements
 
