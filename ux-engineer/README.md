@@ -69,5 +69,5 @@ We will then schedule a short wrap up call to go over your results and the think
 
 ### Hints
 
-* Be efficient! Please don’t reinvent the wheel, use [boilerplates](https://redux-minimal.js.org), [generators](https://github.com/angular/angular-seed) and other [tools](http://redux-form.com/6.6.3/) when they speed up your process and get you to your end goal faster.
+* Be efficient! Please don’t reinvent the wheel, use [boilerplates](https://redux-minimal.js.org), [generators](https://github.com/angular/angular-seed) and other [tools](http://redux-form.com/) when they speed up your process and get you to your end goal faster.
 
