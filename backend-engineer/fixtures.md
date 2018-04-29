@@ -1,5 +1,4 @@
-Fixtures
-========
+# Fixtures
 
 ## Patient object
 
@@ -8,12 +7,14 @@ Fixtures
   "firstName": "Radric",
   "middleName": "Delantic",
   "lastName": "Davis",
-  "phones": [{
-    "type": "Mobile",
-    "number": "5554443333"
-  }],
+  "phones": [
+    {
+      "type": "Mobile",
+      "number": "5554443333"
+    }
+  ],
   "email": "guwop@fakehost.test",
-  "dob": "1980-02-12",  
+  "dob": "1980-02-12",
   "age": 37,
   "gender": "male",
   "status": "active",

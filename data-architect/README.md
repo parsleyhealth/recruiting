@@ -8,13 +8,12 @@ Parsley Health. There are no right or wrong answers.
 
 ## Prompt
 
-Provide a short report describing a data architecture and strategy to support
-a medium-scale, multi-location medical practice providing regular care to
-10,000 patients. The practice would like to know what systems they need to
-build, contract or otherwise enlist toward their desired goals. Likewise, they
-would like a basic understanding of how data will move throughout the system,
-and want assurance that adequate safeguards are in place to satisfy privacy
-concerns.
+Provide a short report describing a data architecture and strategy to support a
+medium-scale, multi-location medical practice providing regular care to 10,000
+patients. The practice would like to know what systems they need to build,
+contract or otherwise enlist toward their desired goals. Likewise, they would
+like a basic understanding of how data will move throughout the system, and want
+assurance that adequate safeguards are in place to satisfy privacy concerns.
 
 Overall the practice is looking for near-real-time insights into the following:
 
@@ -52,12 +51,12 @@ You are asked to consider the following constraints and existing resources:
   identifier.
 * HIPAA-compliant security and storage are required.
 
-Please identify any data gaps that would prevent the practice from
-accomplishing their goals, and suggest collection methods, systems or tools
-for acquiring that information.
+Please identify any data gaps that would prevent the practice from accomplishing
+their goals, and suggest collection methods, systems or tools for acquiring that
+information.
 
-Additionally, the practice would appreciate any suggestions and plans for
-useful insights they have not yet considered.
+Additionally, the practice would appreciate any suggestions for useful insights
+or applications they have not yet considered.
 
 ## Output
 
