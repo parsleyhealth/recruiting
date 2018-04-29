@@ -1,4 +1,4 @@
-# Data Architecture Case Study:
+# Data Architecture Case Study
 
 ## Overview
 
@@ -10,7 +10,11 @@ Parsley Health. There are no right or wrong answers.
 
 Provide a short report describing a data architecture and strategy to support
 a medium-scale, multi-location medical practice providing regular care to
-10,000 patients.
+10,000 patients. The practice would like to know what systems they need to
+build, contract or otherwise enlist toward their desired goals. Likewise, they
+would like a basic understanding of how data will move throughout the system,
+and want assurance that adequate safeguards are in place to satisfy privacy
+concerns.
 
 Overall the practice is looking for near-real-time insights into the following:
 
@@ -18,8 +22,9 @@ Overall the practice is looking for near-real-time insights into the following:
 * Correlations between individual patient chief complaints over time
 * Patient visit wait times
 * Patient messaging wait times
-* Average visit lengths, correlations with chief complaints
-* Patient satisfaction with care
+* Average visit lengths
+* Correlations between visit lengths and chief complaints
+* Patient satisfaction with messaging and visits
 * Average revenue per patient
 
 Additionally, the practice is interested in data applications that provide
@@ -33,11 +38,19 @@ decision support to care givers at the time of the visit:
 
 You are asked to consider the following constraints and concerns:
 
-* You will interface with an existing EHR which exposes an HL7 interface.
-* The EHR is technologically challenged, and requires custom connectors for
-  receiving some lab reports and outside records.
-* HIPAA-compliant security and storage is required.
+* You will interface with an existing EHR which exposes a JSON API. This
+  provides the patient chart, containing:
+  * Structured encounter data with freeform SOAP notes and date stamps
+  * Structured ingest form data
+  * Scheduled visits
 * Patient ingest forms are gathered electronically.
+* The EHR supports the display of outside resources and will provide a patient
+  identifier and a viewer / provider identifier.
+* Patient electronic messaging is handled via a third-party service, with a
+  common patient identifier.
+* Billing is handled via a third-party service, with a common patient
+  identifier.
+* HIPAA-compliant security and storage are required.
 
 Please identify any data gaps that would prevent the practice from
 accomplishing their goals, and suggest collection methods, systems or tools
