@@ -36,7 +36,7 @@ decision support to care givers at the time of the visit:
 * Prompts and suggestions for care from automated analysis of all available
   patient data with application of a broader collection / corpus of health data
 
-You are asked to consider the following constraints and concerns:
+You are asked to consider the following constraints and existing resources:
 
 * You will interface with an existing EHR which exposes a JSON API. This
   provides the patient chart, containing:
