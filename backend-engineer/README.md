@@ -26,7 +26,7 @@ are all functioning properly.
 2.  Make you API run in a container of some sort. `Docker` would be the obvious
     choice, but if you're a big `Vagrant` fan go for it.
 
-3.  Write a suite of tests that verify that the following:
+3.  Write a suite of tests that verify the following are true:
 
     * A paginated list, sorted lexically by last_name, ascending, limited to 10
       results per page, should return row id `mxvv62yn` as the first result of
