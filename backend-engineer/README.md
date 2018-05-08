@@ -23,7 +23,7 @@ are all functioning properly.
     * Deleting existing records.
     * Creating new records.
 
-2.  Make you API run in a container of some sort. `Docker` would be the obvious
+2.  Make your API run in a container of some sort. `Docker` would be the obvious
     choice, but if you're a big `Vagrant` fan go for it.
 
 3.  Write a suite of tests that verify the following are true:
