@@ -41,6 +41,11 @@ are all functioning properly.
 4.  Write at least three more tests covering additional aspects you think should
     verified in an API. (Response times? Database connections? Do list filters 
     work?)
+    
+### BONUS!
+
+Was everything above too easy? Try to improve the response time of one of your
+list calls. Provide a test that verifies the improvement.
 
 ## Fixtures
 
