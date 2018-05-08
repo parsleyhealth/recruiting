@@ -58,9 +58,22 @@ See the files in this folder for your initial data set:
   the database should likewise run in a container, so consider using
   `Docker Compose` or a similar tool.
 
+## Evaluation
+
+You will be evaluated on the following:
+
+1.  Does it work?
+2.  Do all the tests pass?
+3.  Cleanliness and clarity of code.
+4.  Project organization.
+
+Also, while you won't be evaluated on it per se, if you take this as an
+opportunity to try out a new tool or language, we will certainly respect the
+effort.
+
 ## Time limit
 
-Please limit yourself to 4 hours for this project.
+Please limit yourself to **4 hours** for this project.
 
 ## Wrap up
 
