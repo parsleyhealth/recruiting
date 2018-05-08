@@ -1,91 +1,74 @@
-# Medical Database API
+# Backend Engineer Challenge
 
-### Overview
+## Goal
 
-In this task you'll be creating a simple web service to present a
-database-driven API which writes and reads simple patient objects.
+The goal of this exercise is to see how you might approach a typical backend
+data application.
+
+## Prompt: Patient Data API
+
+You are asked to create a reliable API based on an existing patient data set.
+The API should support standard CRUD behaviors, along with tests to ensure they
+are all functioning properly.
 
 > If you have any questions email me at michael@parsleyhealth.com.
 
-### Components
+### Tasks
 
-1.  **Containers**: Please use a tool like `Docker` (with `Docker Compose`),
-    `Kubernetes` or `Apache Mesos` to structure your database and application
-    containers so that I can easily launch this service.
+1.  Create a basic API that supports the following methods:
 
-2.  **Database**: Use whatever database you find easiest, and most convenient.
-    `PostgreSQL`, `MongoDB` and `MariaDB` are all great possibilities.
+    * Listing patient records with pagination support.
+    * Reading records using an id.
+    * Updating records.
+    * Deleting existing records.
+    * Creating new records.
 
-3.  **Application**: Write your API handlers using whatever web framework and
-    language you are most comfortable with. `Express / Node.js`, `Play / Java`,
-    `Flask / Python` are some common and popular web frameworks. While REST APIs
-    are the most common, feel free to use GraphQL, Falcor, or another interface
-    if you prefer it.
+2.  Make you API run in a container of some sort. `Docker` would be the obvious
+    choice, but if you're a big `Vagrant` fan go for it.
 
-### Requirements
+3.  Write a suite of tests that verify that the following:
 
-1.  **CRUD**: Allow basic CRUD operations on a simple object.
+    * A paginated list, sorted lexically by last_name, ascending, limited to 10
+      results per page, should return row id `mxvv62yn` as the first result of
+      the second page.
+    * Reads a correct record when supplied with an id.
+    * Successfully updates an existing record, changing the email address, dob
+      and age with valid values.
+    * Fail to update an existing record with an invalid dob, `BADDATE`.
+    * Deleting an existing record works.
+    * Creating a new record works.
 
-2.  **List**: Allow listing of objects.
+## Fixtures
 
-3.  **Validation**: Perform validation on incoming create or update requests to
-    insure all fields get the correct data type. Throw an error if an invalid
-    value is provided.
+See the files in this folder for your initial data set:
 
-### Fixtures
+* An SQLite database `database.db` with a `person` table,
+* and a `person.csv` file with the same data as the person table.
 
-[Here is a sample / shape of the object](fixtures.md) you should be working
-with. It describes a simple patient.
+## Consider
 
-### Time limits
+* **Application**: Write your API handlers using whatever language and web
+  framework you are most comfortable with. `Express / Node.js`, `Play / Java`,
+  `Flask / Python` are some common and popular web frameworks. While REST APIs
+  are the most common, feel free to use GraphQL, Falcor, or another interface if
+  you prefer it.
 
-Please spend **no more than 3-hours** on this test. If you can't make it perfect
-in that time, don't worry, just send me what you've accomplished.
+* **Database**: Along with the SQLite database a CSV of the data is also
+  provided. If you prefer to use another database you are welcome to, however
+  the database should likewise run in a container, so consider using
+  `Docker Compose` or a similar tool.
 
-Please turn in your results within **72-hours** of the prompt being given. If
-that falls during the weekend, then please turn it in by Monday.
+## Time limit
 
-> Extensions are available, just ask!
+Please limit yourself to 4 hours for this project.
 
-### Evaluation & priorities
+## Wrap up
 
-Within your brief **3 hour time limit** I hope you'll prioritize the following,
-in this order. Consider this an iterative process — get it working on sound
-principles first, then refine and polish as time allows.
+* Please place your finished source code on GitHub[*]
+* Email me the repository URL at michael@parsleyhealth.com
+* We will then schedule a short wrap up call to go over your results and the
+  thought and planning you applied to this project.
 
-1.  Make it work!
-2.  Clean and clear code (hopefully you didn't sacrifice this to make it work)
-3.  Project organization
-4.  Planning: tools used, implementation strategy
-5.  Code quality details
-    * Type, variable, property checking
-    * Failing fast, for better debugging
-6.  Extra polish, concern and care will be noticed
-
-Less important details:
-
-* The language or framework you use. Please use whatever you are most
-  comfortable with to finish this.
-
-* Tests are great, but only if you have time.
-
-### Delivery of project
-
-* Please place your finished source code on GitHub
-* Email me the repository URL and application URL
-
-> If for some reason you would rather not have your code or application out in
-> the open, please send me a zip file of the source code and instructions on to
-> launch and view the finished application.
-
-### Wrap up
-
-When you've finished the test let me know by email: michael@parsleyhealth.com
-
-We will then schedule a short wrap up call to go over your results and the
-thinking you applied to this project.
-
-### Hints
-
-* Be efficient! Please don’t reinvent the wheel, use boilerplates or starter
-  projects when they speed up your process and get you to your end goal faster.
+> [*] If for some reason you would rather not have your code or application out
+> in the open, please send me a zip file of the source code and instructions on
+> to launch and view the finished application.
