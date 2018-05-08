@@ -37,6 +37,10 @@ are all functioning properly.
     * Fail to update an existing record with an invalid dob, `BADDATE`.
     * Deleting an existing record works.
     * Creating a new record works.
+    
+4.  Write at least three more tests covering additional aspects you think should
+    verified in an API. (Response times? Database connections? Do list filters 
+    work?)
 
 ## Fixtures
 
