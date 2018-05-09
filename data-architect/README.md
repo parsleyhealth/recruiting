@@ -35,7 +35,7 @@ decision support to care-givers, based on the particulars of the patient's
 entire medical history and working with a broader collection / corpus of health
 data.
 
-### During the visit
+### Decision support
 
 At the time of the visit they would like to know:
 
@@ -46,8 +46,8 @@ At the time of the visit they would like to know:
 And between visits:
 
 * Reminders to care-givers to follow up on previously noted conditions and
-  interventions
-* Reminders to patients to schedule follow up visits
+  interventions (remember, these could include PHI)
+* Email reminders to patients to schedule follow up visits
 
 ### Constraints
 
@@ -55,19 +55,26 @@ You are asked to consider the following constraints and existing resources:
 
 * You will interface with an existing EHR which exposes a JSON API. This
   provides the patient chart, containing:
+  
   * Structured encounter data with freeform SOAP notes and date stamps
   * Structured ingest form data
   * Scheduled visits
+  
 * Patient ingest forms are gathered electronically.
+
 * The EHR supports the display of outside resources and will provide a patient
   identifier and a viewer / provider identifier.
+  
 * Patient electronic messaging is handled via a third-party service, with a
   common patient identifier. The messaging system supports provides basic
   reporting functionality.
+  
 * Billing is handled via a third-party service, with a common patient
   identifier.
+  
 * A CRM is in place which sends automated emails requesting feedback on visits
   and messaging interactions.
+  
 * HIPAA-compliant security and storage are required.
 
 ### The Unknown Unknown
