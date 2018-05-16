@@ -15,18 +15,19 @@ are all functioning properly.
 
 ### Tasks
 
-1.  Create a basic API that supports the following methods:
+1.  Create a basic API that supports the following methods and features:
 
     * Listing patient records with pagination support.
     * Reading records using an id.
     * Updating records.
     * Deleting existing records.
     * Creating new records.
+    * Automatic calculation of a patient's age based on their dob.
 
 2.  Make your API run in a container of some sort. `Docker` would be the obvious
     choice, but if you're a big `Vagrant` fan go for it.
 
-3.  Write a suite of tests that verify the following are true:
+3.  Write a suite of tests that check the following:
 
     * A paginated list, sorted lexically by last_name, ascending, limited to 10
       results per page, should return row id `mxvv62yn` as the first result of
@@ -37,15 +38,16 @@ are all functioning properly.
     * Fail to update an existing record with an invalid dob, `BADDATE`.
     * Deleting an existing record works.
     * Creating a new record works.
-    
+    * No patients are under the age of 8 are allowed. Did some sneak in?
+
 4.  Write at least three more tests covering additional aspects you think should
     verified in an API. (Response times? Database connections? Do list filters 
     work?)
     
 ### BONUS!
 
-Was everything above too easy? Try to improve the response time of one of your
-list calls. Provide a test that verifies the improvement.
+Slow APIs are no fun. Try to improve the response time of some of your 
+endpoints, providing tests that verify the improvements.
 
 ## Fixtures
 
