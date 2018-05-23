@@ -30,7 +30,7 @@ are all functioning properly.
 3.  Write a suite of tests that check the following:
 
     * A paginated list, sorted lexically by last_name, ascending, limited to 10
-      results per page, should return row id `mxvv62yn` as the first result of
+      results per page, should return row id `1zsjhd0d` as the first result of
       the second page.
     * Reads a correct record when supplied with an id.
     * Successfully updates an existing record, changing the email address, dob
