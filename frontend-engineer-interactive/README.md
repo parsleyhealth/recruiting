@@ -2,17 +2,16 @@
 
 ### Overview
 
-In this task you'll be creating and deploying a simple, client-side, single-page
-application.
+In this task you'll be creating a simple, single-page application.
 
 > If you have any questions email me at michael@parsleyhealth.com.
 
-### Requirements
+### Prompt
 
 I would like you to create a **multi-step** or **multi-screen** patient ingest
 form that gathers standard medical data. Here is a list of data points, disease
 and questions you might want to use:
-https://github.com/parsleyhealth/recruiting/tree/master/frontend-engineer/fixtures.md
+https://github.com/parsleyhealth/recruiting/tree/master/frontend-engineer-interactive/fixtures.md
 
 Here is a suggested organization of the form, but use your best judgement and
 creativity:
@@ -30,12 +29,8 @@ Please note:
 
 * This is a **single-page application**. There shouldn't be page reloads between
   screens.
-* It would be nice to see your stage as your work through the form.
 
 ### Time limits
-
-Please spend **no more than 3-hours** on this test. If you can't make it perfect
-in that time, don't worry, just send me what you've accomplished.
 
 Please turn in your results within **72-hours** of the prompt being given. If
 that falls during the weekend, then please turn it in by Monday.
@@ -44,9 +39,11 @@ that falls during the weekend, then please turn it in by Monday.
 
 ### Evaluation & priorities
 
-Within your brief **3 hour time limit** I hope you'll prioritize the following,
-in this order. Consider this an iterative process — get it working on sound
-principles first, then refine and polish as time allows.
+I don't expect you to create something perfect and highly polished — 
+please try to limit yourself to 4-8 hours working time. I hope in that time
+you'll prioritize the following, in this order. Consider this an iterative 
+process — get it working on sound principles first, then refine and polish 
+as time allows.
 
 1.  Make it work!
 2.  Clean and clear code (hopefully you didn't sacrifice this to make it work)
@@ -58,32 +55,22 @@ principles first, then refine and polish as time allows.
 6.  Management of data, state, and events internally
 7.  Code quality:
 
-* Type, variable, property checking
-* Failing fast, for better debugging
+    * Type, variable, property checking
+    * Failing fast, for better debugging
+    * A test or two would be great
 
 8.  Extra polish, concern and care will be noticed
 
 Less important details:
 
-* How you host your project. This is a frontend-focused position. Please
-  consider a simple cheap (or free) static file host like **GitHub Pages**, or
-  **S3**.
 * The language or framework you use. Please use whatever you are most
   comfortable with to finish this. (Though I think it might be hard to
   accomplish the code style and organization objectives above with vanilla JS or
   jQuery).
-* Tests are great, TDD is great, but that is not a priority.
 
 ### Delivery of project
 
-* Please place your finished source code on GitHub
-* Please host your finished application somewhere (GitHub Pages, Heroku, S3
-  bucket)
-* Email me the repository URL and application URL
-
-> If for some reason you would rather not have your code or application out in
-> the open, please send me a zip file of the source code and instructions on to
-> launch and view the finished application.
+Please place your finished source code on GitHub, Gitlab, or send as a zipped file to me.
 
 ### Wrap up
 
