@@ -53,13 +53,7 @@ as time allows.
 5.  Make it look good - just use Bootstrap, a Material theme, or whatever you're
     comfortable with
 6.  Management of data, state, and events internally
-7.  Code quality:
-
-    * Type, variable, property checking
-    * Failing fast, for better debugging
-    * A test or two would be great
-
-8.  Extra polish, concern and care will be noticed
+7.  Some simple tests would be great
 
 Less important details:
 
