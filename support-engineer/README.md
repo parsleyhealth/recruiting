@@ -10,7 +10,7 @@ request with some basic debugging.
 One of our member's is having trouble signing in to the website. There are no
 reported system's issues, and the `/log-in` endpoint appears to be responding
 normally. The team member who received this support request already made sure
-that they can log themself in.
+that they can log in using their own email address and password.
 
 The member's name is Radric Davis and his password is `test1234`.
 
