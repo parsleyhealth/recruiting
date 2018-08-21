@@ -3,9 +3,7 @@
 ## Goal
 
 The goal of this exercise is to see how you might approach handling a support
-request with some basic debugging. It the asks you to apply a bit of best
-practices by fixing the problem and providing some simple tests to ensure the
-bug doesn't happen again.
+request with some basic debugging.
 
 ## Prompt
 

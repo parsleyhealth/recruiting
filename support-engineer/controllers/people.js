@@ -1,6 +1,17 @@
+const { queryToConditions } = require('../utils/query-helpers');
+
 exports.allPeople = db => async ctx => {
-  const people = await db.all('select * from person;');
-  ctx.body = people;
+  if (Object.entries(ctx.query).length) {
+    const conditions = queryToConditions(ctx.query);
+
+    ctx.body = await db.all(
+      `select id, first_name, last_name, email from person where ${conditions}`
+    );
+  } else {
+    ctx.body = await db.all(
+      'select id, first_name, last_name, email from person'
+    );
+  }
 };
 
 exports.getPersonById = db => async ctx => {
