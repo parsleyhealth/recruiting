@@ -1,0 +1,37 @@
+{
+  "name": "parsley-support-engineer",
+  "version": "0.0.0",
+  "prettier": {
+    "singleQuote": true,
+    "proseWrap": "always"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "develop": "nodemon server.js",
+    "test": "ava"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "description": "Support engineer test.",
+  "main": "server.js",
+  "author": "Michael Shick <m@shick.us>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-convert": "^1.2.0",
+    "koa-handle-error": "0.0.5",
+    "koa-json-error": "^3.1.2",
+    "koa-logger": "^3.2.0",
+    "koa-res": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "sqlite": "^2.9.2"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.7",
+    "nodemon": "^1.18.3",
+    "supertest": "^3.1.0"
+  }
+}
