@@ -30,7 +30,8 @@ Please do the following:
 
 ## Dependencies
 
-- Ensure you have a working Node.js environment of at least version 8.0.
+- Ensure you have a working Node.js environment of at least version 8.0. This is
+  the only system dependency.
 - Getting the project started follows a typical Node.js application pattern.
 - A convenience script `npm run develop` has been added to make debugging and
   testing code a little easier.
