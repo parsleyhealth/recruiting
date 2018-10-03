@@ -68,7 +68,7 @@ results and the thinking you applied to this project.
 
 ### Hints
 
-* Be efficient! Please don’t reinvent the wheel, use scaffolds 
+* Be efficient! Please don’t reinvent the wheel, use scaffolds like 
   [create-react-app](https://github.com/facebook/create-react-app) 
   and [tools](http://redux-form.com/) when they speed up your 
   process and get you to your end goal faster.
