@@ -1,8 +1,8 @@
-# Patient Ingest Form Application
+# Ingest Form React Application
 
 ### Overview
 
-In this task you'll be creating a simple, single-page application.
+In this task you'll be creating a simple, single-page, React application.
 
 > If you have any questions email me at michael@parsleyhealth.com.
 
@@ -55,13 +55,6 @@ as time allows.
 6.  Management of data, state, and events internally
 7.  Some simple tests would be great
 
-Less important details:
-
-* The language or framework you use. Please use whatever you are most
-  comfortable with to finish this. (Though I think it might be hard to
-  accomplish the code style and organization objectives above with vanilla JS or
-  jQuery).
-
 ### Delivery of project
 
 Please place your finished source code on GitHub, Gitlab, or send as a zipped file to me.
@@ -75,8 +68,7 @@ results and the thinking you applied to this project.
 
 ### Hints
 
-* Be efficient! Please don’t reinvent the wheel, use
-  [boilerplates](https://redux-minimal.js.org),
-  [generators](https://github.com/angular/angular-seed) and other
-  [tools](http://redux-form.com/) when they speed up your process and get you to
-  your end goal faster.
+* Be efficient! Please don’t reinvent the wheel, use scaffolds 
+  [create-react-app](https://github.com/facebook/create-react-app) 
+  and [tools](http://redux-form.com/) when they speed up your 
+  process and get you to your end goal faster.
