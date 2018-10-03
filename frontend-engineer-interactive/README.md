@@ -45,15 +45,16 @@ you'll prioritize the following, in this order. Consider this an iterative
 process — get it working on sound principles first, then refine and polish 
 as time allows.
 
-1.  Make it work!
-2.  Clean and clear code (hopefully you didn't sacrifice this to make it work)
-3.  Project organization
-4.  Planning: tools used, implementation strategy, basic UX concerns like what
+1.  **Make it work!**
+2.  **Clean and clear code** (hopefully you didn't sacrifice this to make it work)
+3.  **Organization**
+4.  **Planning**: tools used, implementation strategy, basic UX concerns like what
     to ask for where
-5.  Make it look good - just use Bootstrap, a Material theme, or whatever you're
-    comfortable with
-6.  Management of data, state, and events internally
-7.  Some simple tests would be great
+5.  Management of **data, state, and events** internally
+6.  **Make it look good**: Just use [Semantic UI](https://react.semantic-ui.com/), 
+    [ant design](https://ant.design/docs/react/use-with-create-react-app) or another
+    UI kit you're comfortable with.
+7.  Simple **tests** are highly desirable
 
 ### Delivery of project
 
