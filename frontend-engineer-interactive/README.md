@@ -1,8 +1,8 @@
-# Ingest Form React Application
+# Ingest Form Application
 
 ### Overview
 
-In this task you'll be creating a simple, single-page, React application.
+In this task you'll be creating a simple, single-page, **React** application.
 
 > If you have any questions email me at michael@parsleyhealth.com.
 
