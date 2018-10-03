@@ -54,7 +54,7 @@ as time allows.
 6.  **Make it look good**: Just use [Semantic UI](https://react.semantic-ui.com/), 
     [ant design](https://ant.design/docs/react/use-with-create-react-app) or another
     UI kit you're comfortable with.
-7.  Simple **tests** are highly desirable
+7.  Simple **tests** are highly desirable (required for senior roles)
 
 ### Delivery of project
 
