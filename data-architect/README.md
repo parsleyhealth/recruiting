@@ -9,7 +9,7 @@ Parsley Health. There are no right or wrong answers.
 ## Prompt
 
 Provide a short report describing a data architecture and strategy to support a
-medium-scale, multi-location medical practice providing regular care to 10,000
+medium-scale, multi-location medical practice providing regular care to 100,000
 patients. The practice would like to know what systems they need to build,
 contract or otherwise enlist toward their desired goals. Likewise, they would
 like a basic understanding of how data will move throughout the system, and want
