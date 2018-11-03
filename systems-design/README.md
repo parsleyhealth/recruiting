@@ -77,10 +77,11 @@ including:
 - Reliability
 - Data Integrity
 - Responsiveness
+- Maintainability
 
 ## Not-Concerns (What not to worry about)
 
-- Engineering resources
+- Engineering resources available
 - Timelines
 - Any sort of frontend (though user inputs are important)
 
@@ -112,18 +113,21 @@ The software and systems relevant to this project which are currently in place:
 ## Key Deliverables
 
 Anything not specifically mentioned above is something you should consider as
-necessary to plan and design as a part of this project. While you will not be
-expected to go into great depth on any particularlity of this stack, we would
-like to presentation to address:
+suitable for consideration. While you will not be expected to go into great
+depth on any particularlity of this stack, we would like your presentation to
+address:
 
-- Major systems (databases, pipelines, application logic, etc...) to be built or
-  implemented in support of this project.
+- Recommendation on a platform or platforms to use.
 
-- Data flows and key state changes throughout this system necessary to
-  accomplish complex automated actions. E.g., when a patient requests an
-  appointment, receives a message and views that message what happens where?
+- Recommendation on major systems (databases, pipelines, applications, etc...)
+  to be built or implemented in support of this project.
 
-- Key systems needed to provide analyses which leverage exogenous data.
+- Explanation of data flows and key state changes throughout this system. E.g.,
+  when a patient requests an appointment, receives a message and views that
+  message what happens where?
+
+- Key tools needed to provide analyses which leverage data exogenous to the
+  scheduling system itself.
 
 ## Output
 
