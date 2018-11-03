@@ -13,6 +13,8 @@ a new scheduling application for a large, multi-location medical practice
 providing regular care to 100,000 patients. This system will replace a current
 scheduling tool that is dated, unreliable, and limited in features.
 
+Your intended audience is technical: engineers and product managers.
+
 ## User Stories
 
 This scheduling application is super cool. It will need to support a number of
@@ -114,8 +116,8 @@ necessary to plan and design as a part of this project. While you will not be
 expected to go into great depth on any particularlity of this stack, we would
 like to presentation to address:
 
-- Major systems (databases, pipelines, application logic, etc...) to be built in
-  support of this project.
+- Major systems (databases, pipelines, application logic, etc...) to be built or
+  implemented in support of this project.
 
 - Data flows and key state changes throughout this system necessary to
   accomplish complex automated actions. E.g., when a patient requests an
