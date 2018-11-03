@@ -119,8 +119,8 @@ address:
 
 - Recommendation on a platform or platforms to use.
 
-- Recommendation on major systems (databases, pipelines, applications, etc...)
-  to be built or implemented in support of this project.
+- Recommendation on major systems (databases, pipelines, services, logic,
+  etc...) to be built or implemented in support of this project.
 
 - Explanation of data flows and key state changes throughout this system. E.g.,
   when a patient requests an appointment, receives a message and views that
