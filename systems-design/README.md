@@ -27,7 +27,7 @@ user stories.
   their appointment.
 
 - A patient should receive automatically escalated reminder messages depending
-  on their failure to view previous reminders.
+  on their failure to view and confirm previous reminders.
 
 - A patient should receive automated follow up messages at different intervals
   depending upon the nature of the visit, inferred from the well-structured
