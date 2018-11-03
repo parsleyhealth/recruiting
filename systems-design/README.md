@@ -118,8 +118,8 @@ like to presentation to address:
   support of this project.
 
 - Data flows and key state changes throughout this system necessary to
-  accomplish all of the desired automated actions. E.g., when a patient requests
-  an appointment, receives a message and views that message what happens where?
+  accomplish complex automated actions. E.g., when a patient requests an
+  appointment, receives a message and views that message what happens where?
 
 - Key systems needed to provide analyses which leverage exogenous data.
 
@@ -131,10 +131,15 @@ limited amount of time we understand you might not hit on every feature and
 detail, but be reasonably prepared to go into more depth on certain aspects
 during the Q&A.
 
-## Submissions
-
 Please send your presentation at any time prior to the onsite to
 [michael@parsleyhealth.com](mailto:michael@parsleyhealth.com).
+
+## Suggestions
+
+It may not be feasible to demonstrate every scenario requested above with the
+attendant state changes, but perhaps there are hypothetical scenarios which
+touch a majority of the systems involved and could be used to explain the
+complex, interrelated functions of the application.
 
 ## Questions
 
