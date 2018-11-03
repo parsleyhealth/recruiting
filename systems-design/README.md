@@ -94,8 +94,7 @@ The software and systems relevant to this project which are currently in place:
   systems.
 
 - The EHR provides reliable timestamps, structured notes, and emits webhooks.
-  Regrettably the data is all HL7-encoded. One of our brilliant engineers wrote
-  a reliable-but-slow parser though.
+  Regrettably the data is all HL7-encoded.
 
 - All patients are reliably checked-in for their appointments when they arrive
   through the existing scheduler. We will be replacing the checkin tool in this
