@@ -124,10 +124,15 @@ address:
 
 - Explanation of data flows and key state changes throughout this system. E.g.,
   when a patient requests an appointment, receives a message and views that
-  message what happens where?
+  message what happens where? ^^
 
 - Key tools needed to provide analyses which leverage data exogenous to the
   scheduling system itself.
+
+> ^^ It may not be feasible to demonstrate every possible data flow requested
+> via the user stories with the attendant state changes, but perhaps there are
+> hypothetical scenarios which touch a bulk of the systems involved and could be
+> used to explain the complex, interrelated functions of the application.
 
 ## Output
 
@@ -139,13 +144,6 @@ during the Q&A.
 
 Please send your presentation at any time prior to the onsite to
 [michael@parsleyhealth.com](mailto:michael@parsleyhealth.com).
-
-## Suggestions
-
-It may not be feasible to demonstrate every scenario requested above with the
-attendant state changes, but perhaps there are hypothetical scenarios which
-touch a majority of the systems involved and could be used to explain the
-complex, interrelated functions of the application.
 
 ## Questions
 
