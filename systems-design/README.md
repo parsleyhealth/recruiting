@@ -36,7 +36,7 @@ user stories.
   depending upon the nature of the visit, inferred from the well-structured
   visit notes (the scheduler is responsible for this logic).
 
-- A patient should receive suggestions for new appointments based on provider
+- ** A patient should receive suggestions for new appointments based on provider
   availability forecasting and their anticipated needs.
 
 - A patient should be able to join a waitlist for an appointment type and period
