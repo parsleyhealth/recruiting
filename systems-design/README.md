@@ -63,9 +63,9 @@ user stories.
 - Practice staff should be able to report on the actual time doctors spend with
   patients, relative to the allotted or scheduled time.
 
-- ** Practice staff should be able to set availability blocks for different providers.
+- ^^ Practice staff should be able to set availability blocks for different providers.
 
-> ** Recently added.
+> ^^ Recently added.
 
 ## Key Terms
 
