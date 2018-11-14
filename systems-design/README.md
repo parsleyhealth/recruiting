@@ -23,7 +23,7 @@ user stories.
 - A patient should be able to view and filter available appointment options
   relevant to their provider group and location.
 
-- A patient to should be able to create, reschedule and cancel appointments.
+- A patient should be able to create, reschedule and cancel appointments.
 
 - A patient should receive automated reminder messages multiple times before
   their appointment.
