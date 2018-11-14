@@ -21,7 +21,7 @@ Your intended audience is technical: engineers and product managers.
 This scheduling application is super cool. It will need to support a number of
 user stories.
 
-- A patient should be able to view and filter available appointment options
+- ** A patient should be able to view and filter available appointment options
   relevant to their provider group and location.
 
 - A patient should be able to create, reschedule and cancel appointments.
@@ -32,7 +32,7 @@ user stories.
 - A patient should receive automatically escalated reminder messages depending
   on their failure to view and confirm previous reminders.
 
-- A patient should receive automated follow up messages at different intervals
+- ** A patient should receive automated follow up messages at different intervals
   depending upon the nature of the visit, inferred from the well-structured
   visit notes (the scheduler is responsible for this logic).
 
@@ -48,13 +48,13 @@ user stories.
 - Relevant practice staff should receive notification messages about new or
   altered appointments and their individual calendars should be kept up to date.
 
-- Practice staff should see efficiently stacked calendars (few unfillable time
+- ** Practice staff should see efficiently stacked calendars (few unfillable time
   slots), considering that there are many different standard appointment
   lengths, frequent cancelations and reschedules. It is possible this process
   will involve shifting existing appointments and require confirmation from the
   patient.
 
-- Practice staff should receive **real-time** updates on major delays in seeing
+- ** Practice staff should receive **real-time** updates on major delays in seeing
   patients to correct the schedule ASAP.
 
 - Practice staff should be able to report on possible gaps in availability based
@@ -65,6 +65,7 @@ user stories.
 
 - ^^ Practice staff should be able to set availability blocks for different providers.
 
+> ** Key stories to tackle
 > ^^ Recently added.
 
 ## Key Terms
