@@ -7,6 +7,7 @@ We're looking for an approach that uses Playwright, Cypress, or JavaScript langu
 ## Prompt
 You are ask to complete the following two simple exercise.  The first question should take 
 
+## PHONE screen interview questions
 ### Question 1: 
 Given an array with N elements:
 * Calculate the total sum for this array
@@ -28,3 +29,6 @@ As an Automation Test Engineer, I want to automate the search website with follo
 * Click to the first result, and expect it will redirect to the website https://www.parsleyhealth.com
 
 Please write the test cases, and implement your solution with BDD in Cypress/Playwright or the language of your choice to complete this assignment.
+
+## Technical Automation interview question
+### TBD
