@@ -1,0 +1,27 @@
+const {Given, When, Then} = require('@cucumber/cucumber')
+const { expect } = require("@playwright/test");
+
+const xPaths = {
+  googleHomeElement: "//img[@alt='Google']",
+  searchInputElement: "//input[@name='q']",
+  searchButton: "//input[@name='btnK']",
+  firstSearchResult: "//div[@id='search']//div[@class='yuRUbf']/a"
+};
+
+Given('a user has navigated to Google Search Home page using url {string}', async function (googleHomeUrl) {
+    await page.goto(googleHomeUrl);
+    const locator = await page.locator(xPaths.googleHomeElement);
+    await expect(locator).toBeVisible();
+  });
+
+When('the user searches for keyword {string} and clicks on first result', async function (searchTerm) {
+    const {searchInputElement, searchButton, firstSearchResult} = xPaths;
+    await page.fill(searchInputElement, searchTerm);
+    await page.click(searchButton);
+    await page.click(firstSearchResult);
+  });
+
+Then('navigate to {string}.', async function (expectedUrl) {
+    const url = await page.url();
+    await expect(url).toBe(expectedUrl);
+  });
